@@ -24,5 +24,13 @@ client.on('message', (message) => {
 
 });
 
+client.on('message', (message) => {
+ let regex = /ligma/i;
+ if (regex.test(message.content)) {
+  message.channel.send("balls");
+ }
+
+});
+
 // Replace the value between the quotes with your token
 client.login('redacted for privacy');
