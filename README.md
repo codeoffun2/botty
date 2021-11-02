@@ -1,21 +1,26 @@
 Hosted on my raspberry Pi zero!
 
-<h2> Music Bot code </h2>
-https://github.com/Just-Some-Bots/MusicBot
-
-<h2> How to install botty </h2>
-```BASH
-sudo git clone https://github.com/codeoffun2/botty && cd botty
-````
+<h2> How to install </h2>
 ```BASH
 sudo apt update
-sudo apt install python3 python3-pip git python3-pil python3-pil.imagetk -y # Install dependencies
-git clone https://github.com/revoxhere/duino-coin # Clone Duino-Coin repository
-cd duino-coin
-python3 -m pip install -r requirements.txt # Install pip dependencies
+sudo apt-get install python3 screen  # Install dependencies
+sudo git install https://github.com/codeoffun2/botty/
+cd botty
+screen 
+ctrl-a :
+sessionname bottypy
+enter
+python3 bot.py
+ctrl-a ctrl-d
+screen
+ctrl-a :
+sessionname bottyjs
+enter
+node bot.js
+ctrl-a ctrl-d
 ````
-
-<h1>  </h1>
+visit https://gist.github.com/stonehippo/f4ef8446226101e8bed3e07a58ea512a to learn how to install nodejs
+visit https://github.com/Just-Some-Bots/MusicBot to learn how to install the music bot code (not mine)
 
 <h2> LICENCE</h2>
 <p>
