@@ -5,7 +5,7 @@ from discord.ext import commands
 
 client = commands.Bot(command_prefix = 'somethingelse')
 client.remove_command('help')
-TOKEN = 'ODg4OTMzNDM4MTA1NzIyOTIw.YUZ5xw.XrvhFq-DmD61JZN9nWN_PrUyrH8'
+TOKEN = 'yourtokenhere'
 
 description = '''Codeoffuns bot!'''
 bot = commands.Bot(command_prefix='!', description=description, help_command=None)
