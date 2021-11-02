@@ -2,36 +2,15 @@ const { Client, Intents } = require("discord.js");
 const client = new Client({
   intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES]
 });
-
+ 
 // When the app is ready it will write out Ready using this
 client.once('ready', () => {
-	console.log('Ready!');
+  console.log('Ready!');
 });
-
-client.on('message', message => {
-	if (message.content === '!Hello') {
-        // send back "Pong." to the channel the message was sent in
-        message.channel.send('hello to you too.');
-	}
-
-});
-
-client.on('message', (message) => {
- let regex = /who/i;
- if (regex.test(message.content)) {
-  message.channel.send("ur mom");
- }
-
-});
-
-client.on('message', (message) => {
- let regex = /ligma/i;
- if (regex.test(message.content)) {
-  message.channel.send("balls");
- }
-
-});
-
+ 
+// Replace the value between the quotes with your token
+client.login('ODg4OTMzNDM4MTA1NzIyOTIw.YUZ5xw.XrvhFq-DmD61JZN9nWN_PrUyrH8');
+ 
 const jokes = [
   'I went to a street where the houses were numbered 8k, 16k, 32k, 64k, 128k, 256k and 512k. It was a trip down Memory Lane.',
   '“Debugging” is like being the detective in a crime drama where you are also the murderer.',
@@ -47,12 +26,26 @@ const jokes = [
   'I think Microsoft named .Net so it wouldn’t show up in a Unix directory listing.',
   'There are two ways to write error-free programs; only the third one works.',
 ];
-
-client.on('message', (msg) => {
-  if (msg.content === '?joke') {
-    msg.channel.send(jokes[Math.floor(Math.random() * jokes.length)]);
+ 
+const whoRegex = /who/i;
+const ligmaRegex = /ligma/i;
+ 
+ 
+client.on('message', message => {
+  if (message.content === '!Hello') {
+    // send back "Pong." to the channel the message was sent in
+    message.channel.send('hello to you too.');
+  }
+  
+  else if (whoRegex.test(message.content)) {
+    message.channel.send("ur mom");
+  }
+ 
+  else if (ligmaRegex.test(message.content)) {
+    message.channel.send("balls");
+  }
+ 
+  else if (message.content === '!joke') {
+    message.channel.send(jokes[Math.floor(Math.random() * jokes.length)]);
   }
 });
-
-// Replace the value between the quotes with your token
-client.login('redacted for privacy');
