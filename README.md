@@ -4,9 +4,9 @@ Hosted on my raspberry Pi zero!
 https://github.com/Just-Some-Bots/MusicBot
 
 <h2> How to install botty </h2>
-```
+```BASH
 sudo git clone https://github.com/codeoffun2/botty && cd botty
-``` hi ````
+````
 
 
 <h1>  </h1>
