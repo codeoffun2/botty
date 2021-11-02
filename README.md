@@ -22,7 +22,7 @@ enter
 node bot.js
 ctrl-a ctrl-d
 ````
-visit https://gist.github.com/stonehippo/f4ef8446226101e8bed3e07a58ea512a to learn how to install nodejs
+visit https://gist.github.com/stonehippo/f4ef8446226101e8bed3e07a58ea512a to learn how to install nodejs <p>
 visit https://github.com/Just-Some-Bots/MusicBot to learn how to install the music bot code (not mine)
 
 <h2> LICENCE</h2>
