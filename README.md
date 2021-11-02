@@ -3,6 +3,7 @@ Hosted on my raspberry Pi zero!
 <h2> How to install </h2>
 installation steps are not done.
 feel free to put issues if something goes wrong
+
 ```BASH
 sudo apt update
 sudo apt-get install python3 screen  # Install dependencies
