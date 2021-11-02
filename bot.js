@@ -9,7 +9,7 @@ client.once('ready', () => {
 });
  
 // Replace the value between the quotes with your token
-client.login('ODg4OTMzNDM4MTA1NzIyOTIw.YUZ5xw.XrvhFq-DmD61JZN9nWN_PrUyrH8');
+client.login('yourtokenhere');
  
 const jokes = [
   'I went to a street where the houses were numbered 8k, 16k, 32k, 64k, 128k, 256k and 512k. It was a trip down Memory Lane.',
