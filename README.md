@@ -6,7 +6,7 @@ https://github.com/Just-Some-Bots/MusicBot
 <h2> How to install botty </h2>
 ```
 sudo git clone https://github.com/codeoffun2/botty && cd botty
-` ` ` ' hi '
+``` hi ```
 
 
 <h1>  </h1>
