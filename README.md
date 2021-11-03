@@ -5,7 +5,7 @@ installation steps are not done.
 feel free to put issues if something goes wrong
 
 ```BASH
-sudo apt update
+~~sudo apt update
 sudo apt-get install python3 screen  # Install dependencies
 sudo git install https://github.com/codeoffun2/botty/
 cd botty
@@ -20,7 +20,8 @@ ctrl-a :
 sessionname bottyjs
 enter
 node bot.js
-ctrl-a ctrl-d
+ctrl-a ctrl-d~~
+In need of repair
 ````
 visit https://gist.github.com/stonehippo/f4ef8446226101e8bed3e07a58ea512a to learn how to install nodejs <p>
 visit https://github.com/Just-Some-Bots/MusicBot to learn how to install the music bot code (not mine)
