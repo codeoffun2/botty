@@ -3,9 +3,7 @@ Hosted on my raspberry Pi zero!
 <h2> How to install </h2>
 installation steps are not done.
 feel free to put issues if something goes wrong
-steps in need of repair
-Do not use
-
+<p>
 First create a discord server
 Then go to:
 https://discordapp.com/developers/applications
@@ -28,7 +26,7 @@ sudo apt install python3-pip python3-cffi
 sudo pip3 install discord.py[voice] 
 sudo python3 -m pip install -U discord.py[voice]
 wget https://unofficial-builds.nodejs.org/download/release/v17.0.1/node-v17.0.1-linux-armv6l.tar.gz
-tar -xf node-v17.0.1-linux-armv6l.tar.xz
+tar -xf  node-v17.0.1-linux-armv6l.tar.gz 
 sudo mv node-v17.0.1-linux-armv6l /usr/local/node
 cd /usr/bin
 sudo ln -s /usr/local/node/bin/node node
