@@ -21,6 +21,7 @@ Now you can start installing the bot!
 <b> Note
 <p>
 These steps are for linux </b>
+
 ```BASH
 sudo apt update
 sudo apt install python3-pip python3-cffi
