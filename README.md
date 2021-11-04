@@ -5,7 +5,8 @@ feel free to put issues if something goes wrong
 
 <p>
 
-First create a discord server
+First create a discord server.
+<p>
 Then go to:
 https://discordapp.com/developers/applications
  click new application and choose a name
