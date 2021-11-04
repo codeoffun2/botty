@@ -6,11 +6,39 @@ feel free to put issues if something goes wrong
 steps in need of repair
 Do not use
 
+First create a discord server
+Then go to:
+https://discordapp.com/developers/applications
+ click new application and choose a name
+<p>
+Then click add bot in the bot section 
+<p>
+After that, go to the oauth2 section and select the bot scope.
+<p>
+Copy the url and select the server you selected 
+<p>
+Now you can start installing the bot!
+<b> Note
+<p>
+These steps are for linux </b>
 ```BASH
 sudo apt update
-sudo apt-get install python3 screen  # Install dependencies
+sudo apt install python3-pip python3-cffi
+sudo pip3 install discord.py[voice] 
+sudo python3 -m pip install -U discord.py[voice]
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+nvm --version
+npm init
+npm install discord.js
 sudo git install https://github.com/codeoffun2/botty/
 cd botty
+nano bot.js
+#find line 12 and insert your bot token there
+nano bot.py
+#find line 8 and use your token there
 screen 
 ctrl-a :
 sessionname bottypy
