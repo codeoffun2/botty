@@ -9,7 +9,8 @@ First create a discord server.
 <p>
 Then go to:
 https://discordapp.com/developers/applications
- click new application and choose a name
+<p>
+ Click new application and choose a name
 <p>
 Then click add bot in the bot section 
 <p>
