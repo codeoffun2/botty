@@ -5,6 +5,7 @@ installation steps are not done.
 feel free to put issues if something goes wrong
 steps in need of repair
 Do not use
+
 ```BASH
 sudo apt update
 sudo apt-get install python3 screen  # Install dependencies
