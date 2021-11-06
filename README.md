@@ -1,6 +1,8 @@
 Hosted on my raspberry Pi zero!
 <h2> Commands </h2>
+
 General
+
 !help [command] - Prints a list of commands, or info on a command if one is specified.
 
 !play <URL/query> - Plays audio from a specific URL or searches for a query on YouTube and queues the first result.
