@@ -7,7 +7,7 @@ import sys
 
 client = commands.Bot(command_prefix = 'somethingelse')
 client.remove_command('help')
-TOKEN = 'ODg4OTMzNDM4MTA1NzIyOTIw.GFO5b7.7jgp944U6eMPRgXyrP23VtUa2AVEq1Dl2Ezr_M'
+TOKEN = '(token)'
 
 description = '''Codeoffuns bot!'''
 bot = commands.Bot(command_prefix='!', description=description, help_command=None)
